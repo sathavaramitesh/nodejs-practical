@@ -6,7 +6,7 @@
   "scripts": {
     "tsc": "tsc",
     "lint": "tslint -c tslint.json 'src/**/*.ts' --fix",
-    "start": "tsc --watch & nodemon --inspect dist",
+    "start": "nodemon --inspect dist",
     "build": "tsc -w"
   },
   "author": "Mitesh Sathavara",
